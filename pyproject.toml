@@ -1,0 +1,18 @@
+[project]
+name = "tracknetv3"
+version = "0.1.0"
+description = "badminton shuttle tracking"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dash>=2.17",
+    "numpy>=1.23,<2",
+    "opencv-python>=4.8",
+    "pandas>=2.0",
+    "pillow>=10",
+    "plotly>=5.8",
+    "torch>=2.1",
+    "parse",
+    "tqdm>=4.70.0",
+    "pycocotools>=2.0.11",
+]
